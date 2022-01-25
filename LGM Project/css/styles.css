@@ -1,0 +1,335 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+.abc {
+  color: #072227;
+}
+
+.def {
+  color: #F5F5F5;
+  padding: 7% 15%;
+  font-size: 1rem;
+}
+
+.qwe {
+  width: 500px;
+  height: 300px;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/* Buttons */
+.ty {
+  position: relative;
+  bottom: 120px;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+#title {
+  background-image: url("https://www.burchcom.com/wp-content/uploads/2019/01/images1997-5c2f99436aa28.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-size: 1520px 1000px;
+  background-color: #35858B;
+  color: #072227;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  color: #072227;
+}
+
+/* Title Image */
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features Section */
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #000B49;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+#testimonials {
+  background-color: #064663;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #064663;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.pre {
+  width: 300px;
+  height: 200px;
+  margin: 20px 20px 50px;
+}
+
+.pre {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.circular--portrait img {
+  width: 100%;
+  height: auto;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* CTA Section */
+#cta {
+  background-color: #064663;
+}
+
+/* Footer Section */
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* css for maps and form */
+@import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500);
+
+.contact4 {
+  font-family: "Montserrat", sans-serif;
+  color: #8d97ad;
+  font-weight: 300;
+}
+
+.contact4 h1, .contact4 h2, .contact4 h3, .contact4 h4, .contact4 h5, .contact4 h6 {
+  color: #3e4555;
+}
+
+.contact4 .font-weight-medium {
+  font-weight: 500;
+}
+
+.contact4 .form-control {
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.contact4 .form-control:focus {
+  border-color: #ffffff;
+}
+
+.contact4 input::-webkit-input-placeholder,
+.contact4 textarea::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.contact4 input:-ms-input-placeholder,
+.contact4 textarea:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.contact4 input::placeholder,
+.contact4 textarea::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.contact4 .right-image {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+
+.contact4.bg-info {
+  background-color: #5584AC !important;
+}
+
+.contact4 .text-inverse {
+  color: #3e4555 !important;
+}
+
+@media (min-width: 1024px) {
+  .contact4 .contact-box {
+    padding: 80px 105px 80px 0px;
+  }
+}
+
+@media (max-width: 767px) {
+  .contact4 .contact-box {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .contact4 .right-image {
+    position: relative;
+    bottom: -95px;
+  }
+}
+
+/* Project */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.project4 {
+  padding-top: 110px;
+}
+
+.project3 {
+  padding-top: 60px;
+}
+
+.fe {
+  font-size: 1rem;
+}
+
+.signupnl {
+  padding-left: 300px;
+  padding-bottom: 100px;
+}
+
+#title1 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCGBiZj_SiFqnaVDDBRFTm3g-HHnPg9Q2LmQ&usqp=CAU");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-size: 1520px 1000px;
+}
+
+.Newsletter-signup {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.newslettersignup {
+  background-color: #FFF9F9;
+  border-radius: 12px;
+  font-size: 20px;
+}
